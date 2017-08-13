@@ -1,0 +1,17 @@
+<!-- content -->
+<div>
+    Hello!
+</div>
+<div>
+    You added apartment:<br />
+    Count Rooms: {{ apartment.getCountRooms() }}<br />
+    Count Bathrooms: {{ apartment.getCountBathrooms() }}<br />
+    Square: {{ apartment.getSquare() }}<br />
+    Has Parking: {{ apartment.getHasParking() }}<br />
+    Address: {{apartment.getUnit()}} {{apartment.getStreet()}}, {{apartment.getBuilding()}} {{apartment.getZipCode()}}
+    {{apartment.getCity()}} {{apartment.getRegion()}} {{apartment.getCountry()}}<br />
+    Comment: {{ apartment.getComment() }}<br />
+    <br />
+    Link to edit:<br />
+    <a href="http://localhost:4200/update/{{ apartment.getId() }}?token={{ apartment.getAccessToken() }}">http://localhost:4200/update/{{ apartment.getId() }}?token={{ apartment.getAccessToken() }}</a>
+</div>

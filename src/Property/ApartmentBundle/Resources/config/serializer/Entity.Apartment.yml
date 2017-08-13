@@ -1,0 +1,31 @@
+Property\ApartmentBundle\Entity\Apartment:
+    exclusion_policy: ALL
+    properties:
+        id:
+            expose: true
+        countRooms:
+            expose: true
+        countBathrooms:
+            expose: true
+        square:
+            expose: true
+        hasParking:
+            expose: true
+        comment:
+            expose: true
+        unit:
+            expose: true
+        building:
+            expose: true
+        street:
+            expose: true
+        city:
+            expose: true
+        region:
+            expose: true
+        country:
+            expose: true
+        zipCode:
+            expose: true
+        ownerEmail:
+            expose: true

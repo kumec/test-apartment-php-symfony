@@ -1,0 +1,4 @@
+api:
+    type: rest
+    resource: PropertyApartmentBundle/Controller/ApiController
+    prefix:   /apartment/api

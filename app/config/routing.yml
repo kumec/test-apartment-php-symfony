@@ -1,0 +1,7 @@
+ApiDoc:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix: "/doc"
+
+apartment:
+    type: rest
+    resource: Property\ApartmentBundle\Controller\ApiController
